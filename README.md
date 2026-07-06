@@ -1,3 +1,5 @@
+[![actions](https://github.com/gomatic/docs.go-workgroup/actions/workflows/actions.yml/badge.svg)](https://github.com/gomatic/docs.go-workgroup/actions/workflows/actions.yml) [![docs](https://github.com/gomatic/docs.go-workgroup/actions/workflows/docs.yml/badge.svg)](https://github.com/gomatic/docs.go-workgroup/actions/workflows/docs.yml) [![pages](https://github.com/gomatic/docs.go-workgroup/actions/workflows/pages.yml/badge.svg)](https://github.com/gomatic/docs.go-workgroup/actions/workflows/pages.yml)
+
 # docs.go-workgroup
 
 The **public documentation** site for [`gomatic/go-workgroup`](https://github.com/gomatic/go-workgroup). Built from [`nicerobot/template.repo-docs`](https://github.com/nicerobot/template.repo-docs) as a self-contained [Hugo](https://gohugo.io) site, published to GitHub Pages.
