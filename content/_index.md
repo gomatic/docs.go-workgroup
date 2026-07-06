@@ -129,14 +129,14 @@ A `nil` source or `nil` worker is rejected before any goroutine starts, with the
 ## API summary
 
 | Function | Description |
-|----------|-------------|
+| --- | --- |
 | [`Run[T]`](https://pkg.go.dev/github.com/gomatic/go-workgroup#Run) | Distribute work from a source across N workers (default: `NumCPU`). |
 | [`FanOut[T]`](https://pkg.go.dev/github.com/gomatic/go-workgroup#FanOut) | `Run` with `Workers(n)`. |
 | [`FanIn[T]`](https://pkg.go.dev/github.com/gomatic/go-workgroup#FanIn) | `Run` with `Workers(1)`. |
 | [`Pipe[In, Out]`](https://pkg.go.dev/github.com/gomatic/go-workgroup#Pipe) | Build a `Source` from a transformation for stage chaining. |
 
 | Option | Default | Description |
-|--------|---------|-------------|
+| --- | --- | --- |
 | [`Workers`](https://pkg.go.dev/github.com/gomatic/go-workgroup#Workers) | `runtime.NumCPU()` | Number of concurrent worker goroutines. |
 | [`Name`](https://pkg.go.dev/github.com/gomatic/go-workgroup#Name) | `""` | Workgroup name included in log output. |
 | [`Log`](https://pkg.go.dev/github.com/gomatic/go-workgroup#Log) | `slog.Default()` | Structured logger. |
